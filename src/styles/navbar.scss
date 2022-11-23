@@ -1,0 +1,10 @@
+@import "variables.scss";
+
+.navbar {
+    background-color: $black;
+    height: 50px;
+
+    &__heading {
+        color: $red;
+    }
+}
