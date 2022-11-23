@@ -3,8 +3,17 @@
 .navbar {
     background-color: $black;
     height: 50px;
+    padding: 0px 3rem 0px 3rem;
 
     &__heading {
         color: $red;
+    }
+
+    &__right > label {
+        cursor: pointer;
+    }
+
+    &__right > label:hover {
+        color: $yellow;
     }
 }

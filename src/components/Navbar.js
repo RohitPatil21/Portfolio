@@ -4,8 +4,17 @@ import "../styles/common.scss";
 
 const Navbar = () => {
   return (
-    <div className='navbar'>
-        <h1 className="navbar__heading text-center"> Hello guys </h1>
+    <div className='navbar d-flex justify-between'>
+      <div className='navbar__left'>
+          <h1 className='text-orange'>Logo</h1>
+      </div> 
+       <div className='navbar__right text-white d-flex justify-center align-center gap letter-spacing'>
+        <label>Home</label>
+        <label> About </label>
+        <label> Skills </label>
+        <label> Projects </label>
+        <label> Work </label>
+        </div>
     </div>
   )
 }

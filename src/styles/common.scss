@@ -4,6 +4,42 @@
     color: $white;
 }
 
+.text-red{
+    color: $red;
+}
+
+.text-orange{
+    color: $orange;
+}
+
 .text-center{
     text-align: center;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.gap {
+    gap: 4rem;
+}
+
+.letter-spacing{
+    letter-spacing: 2px;
+}
+
+.cursor-pointer{
+    cursor: pointer;
 }
